@@ -1,0 +1,2 @@
+GOOGLE_API_KEY = "AIzaSyCTdEYCSilNZIDsNRrTjpzIlzk7iCq0eRo"
+CSE_ID = "62312dea2fb9540c0" 

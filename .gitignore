@@ -1,0 +1,52 @@
+# Python virtual environments
+venv/
+venv_pfa/
+venv_broken/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Node.js
+node_modules/
+dist/
+
+# Large data files â€” DO NOT commit
+*.csv
+# Uncomment the line below to also exclude the YOLO model:
+# *.pt
+
+# Local SQLite database
+app.db
+
+# Build caches
+.vite/
+.cache/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.txt
+out.txt
+error.txt
+code_extract.txt
+
+# Image and FAISS caches
+image_cache/
+faiss_output/
+output/
+logos/
+
+# Environment variables / secrets - NEVER commit these
+.env
+*.env
+.env.local
+.env.production

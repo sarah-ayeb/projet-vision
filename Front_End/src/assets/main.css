@@ -1,0 +1,99 @@
+/* Import modern font similar to Nexa */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+@import './base.css';
+
+#app {
+  width: 100vw;
+  max-width: 100vw;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  overflow-x: hidden;
+  background-color: #f8fafc;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+@media (min-width: 1024px) {
+  #app {
+    width: 100vw;
+    padding: 0;
+  }
+}
+
+:global(.dark-mode) body,
+:global(.dark-mode) #app,
+:global(.dark-mode) .app-container,
+:global(.dark-mode) .content-wrapper,
+:global(.dark-mode) .main-content,
+:global(.dark-mode) .sidebar,
+:global(.dark-mode) .reports-container,
+:global(.dark-mode) .statistics-container,
+:global(.dark-mode) .image-search-container,
+:global(.dark-mode) .product-card,
+:global(.dark-mode) .stat-card,
+:global(.dark-mode) .report-card,
+:global(.dark-mode) .result-item,
+:global(.dark-mode) .report-details,
+:global(.dark-mode) .results-grid,
+:global(.dark-mode) .report-header,
+:global(.dark-mode) .report-info,
+:global(.dark-mode) .result-header,
+:global(.dark-mode) .no-reports-message,
+:global(.dark-mode) .content-header,
+:global(.dark-mode) .reports-list,
+:global(.dark-mode) .clear-all-section,
+:global(.dark-mode) .stat-card,
+:global(.dark-mode) .metric-card,
+:global(.dark-mode) .website-card,
+:global(.dark-mode) .pricing-card,
+:global(.dark-mode) .result-card,
+:global(.dark-mode) .website-header,
+:global(.dark-mode) .pricing-header,
+:global(.dark-mode) .result-icon,
+:global(.dark-mode) .chart-container,
+:global(.dark-mode) .chart-content,
+:global(.dark-mode) .table-container,
+:global(.dark-mode) .results-header,
+:global(.dark-mode) .filters,
+:global(.dark-mode) .results-count,
+:global(.dark-mode) .product-details-row,
+:global(.dark-mode) .product-cards,
+:global(.dark-mode) .webcam-container,
+:global(.dark-mode) .extracted-text-section,
+:global(.dark-mode) .upload-area,
+:global(.dark-mode) .captured-preview,
+:global(.dark-mode) .results-section {
+  background: #232526 !important;
+  color: #fff !important;
+  box-shadow: none !important;
+}
+:global(.dark-mode) *[style*="background: white"],
+:global(.dark-mode) *[style*="background: #fff"],
+:global(.dark-mode) *[style*="background: #f7fafc"],
+:global(.dark-mode) *[style*="background: #f1f5f9"] {
+  background: #232526 !important;
+  color: #fff !important;
+  box-shadow: none !important;
+}
