@@ -1,6 +1,6 @@
 # AI-Powered Pharmaceutical Product Recognition & Price Comparison Platform
 
-> A final-year engineering project (PFA) — an intelligent, end-to-end platform that enables users to identify parapharmacy products through AI-driven image recognition and instantly compare real-time prices across Tunisian e-commerce websites.
+>  end-to-end platform that enables users to identify parapharmacy products through AI-driven image recognition and instantly compare real-time prices across Tunisian e-commerce websites.
 
 ---
 
