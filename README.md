@@ -119,4 +119,3 @@ The app will be available at `http://localhost:5173`
 
 ---
 
-*Developed as a Final Year Project (PFA) — 2025/2026*
